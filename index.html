@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datathon@IndoML 2026</title>
+  <meta name="description" content="Official page for the Datathon at IndoML 2026." />
+
+  <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <div id="sticky-header">
+    <header>
+      <div class="header-inner">
+        <img src="indoml.png" alt="IndoML Logo" class="header-logo" />
+        <div class="header-title">
+          <h1>Datathon<span class="accent">@</span>IndoML 2026</h1>
+          <p class="header-subtitle">A Research Problem-Solving Competition</p>
+        </div>
+        <img src="datathone_logo.svg" alt="Datathon Logo" class="header-logo" />
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <nav id="main-nav">
+      <div class="nav-inner">
+        <a href="#about" class="active"><i class="fas fa-info-circle"></i> About</a>
+        <a href="#chairs"><i class="fas fa-user-tie"></i> Chairs</a>
+        <a href="#announcements"><i class="fas fa-bullhorn"></i> Announcements</a>
+        <a href="#task"><i class="fas fa-tasks"></i> Task</a>
+        <a href="#dataset"><i class="fas fa-database"></i> Dataset</a>
+        <a href="#timeline"><i class="fas fa-calendar-alt"></i> Timeline</a>
+        <a href="#prizes"><i class="fas fa-trophy"></i> Prizes</a>
+        <a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">In conjunction with IndoML 2026</div>
+      <h2>Datathon<span class="accent">@</span>IndoML 2026</h2>
+      <p class="hero-tagline">Solve Real-World Research Problems. Compete. Win.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" id="counter-teams">—</span>
+          <span class="stat-label">Teams Expected</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">₹</span>
+          <span class="stat-label">Cash Prizes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number"><i class="fas fa-trophy"></i></span>
+          <span class="stat-label">Present at IndoML</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#about" class="btn btn-primary">Learn More</a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-info-circle"></i> About the Datathon</h2>
+      <div class="card">
+        <p>
+          Welcome to <strong>Datathon@IndoML 2026</strong> — a research-oriented data science competition held in conjunction with 
+          <a href="https://indoml.in" target="_blank"><strong>IndoML 2026</strong></a>.
+          Building on the success of previous editions, this year's datathon invites students and early-career professionals 
+          to tackle challenging, real-world research problems.
+        </p>
+        <p>
+          <strong>Top-performing teams</strong> will be invited to attend <strong>IndoML 2026</strong> and present their solutions 
+          to leading researchers and professionals from academia and industry. These teams will also receive exciting <strong>cash prizes</strong>.
+        </p>
+        <div class="info-banner">
+          <i class="fas fa-lightbulb"></i>
+          <span>Task details, dataset, and timeline will be announced soon. Stay tuned!</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chairs -->
+  <section id="chairs" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-user-tie"></i> Datathon Chairs</h2>
+      <div class="people-grid">
+        <div class="person-card">
+          <div class="person-img-wrap">
+            <img src="mahesh.jpg" alt="Mahesh Mohan" />
+          </div>
+          <h3><a href="https://maheshmohanmr.github.io/" target="_blank">Dr. Mahesh Mohan</a></h3>
+          <span class="affiliation">IIT Kharagpur</span>
+        </div>
+        <div class="person-card">
+          <div class="person-img-wrap">
+            <div class="placeholder-img"><i class="fas fa-user"></i></div>
+          </div>
+          <h3>Dr. Debopriyo Banerjee</h3>
+          <span class="affiliation">Inception – G42</span>
+        </div>
+        <div class="person-card">
+          <div class="person-img-wrap">
+            <div class="placeholder-img"><i class="fas fa-user"></i></div>
+          </div>
+          <h3>Subhajit Datta</h3>
+          <span class="affiliation">Heritage Institute of Technology</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Announcements -->
+  <section id="announcements" class="section">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-bullhorn"></i> Announcements</h2>
+      <div class="announcement-card highlight">
+        <div class="announcement-date"><i class="fas fa-calendar"></i> April 2026</div>
+        <h3>Website Launched!</h3>
+        <p>The official website for Datathon@IndoML 2026 is now live. Registration details, task description, dataset, and timeline will be announced soon.</p>
+      </div>
+      <div class="announcement-card">
+        <div class="announcement-date"><i class="fas fa-clock"></i> Coming Soon</div>
+        <h3>Registration Opens</h3>
+        <p>Stay tuned for updates on registration, task details, and important dates.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Task -->
+  <section id="task" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-tasks"></i> Task Description</h2>
+      <div class="card coming-soon-card">
+        <div class="coming-soon-icon"><i class="fas fa-flask"></i></div>
+        <h3>To Be Announced</h3>
+        <p>The task description for Datathon@IndoML 2026 is currently being finalized. Details will be published here once confirmed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dataset -->
+  <section id="dataset" class="section">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-database"></i> Dataset</h2>
+      <div class="card coming-soon-card">
+        <div class="coming-soon-icon"><i class="fas fa-table"></i></div>
+        <h3>To Be Announced</h3>
+        <p>Dataset details, download links, and data format specifications will be released alongside the task description.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-calendar-alt"></i> Important Dates</h2>
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h4>Registration Opens</h4>
+            <p>TBA</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h4>Development Phase</h4>
+            <p>TBA</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h4>Test Phase</h4>
+            <p>TBA</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h4>Results Announcement</h4>
+            <p>TBA</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h4>Presentation at IndoML 2026</h4>
+            <p>TBA</p>
+          </div>
+        </div>
+      </div>
+      <p class="timeline-note"><em>All deadlines will be at 12:00 Noon IST (Indian Standard Time).</em></p>
+    </div>
+  </section>
+
+  <!-- Prizes -->
+  <section id="prizes" class="section">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-trophy"></i> Prizes</h2>
+      <div class="card coming-soon-card">
+        <div class="coming-soon-icon"><i class="fas fa-gift"></i></div>
+        <h3>Prize Details Coming Soon</h3>
+        <p>Exciting cash prizes await the top-performing teams! Detailed prize distribution will be announced along with the task description.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-question-circle"></i> FAQ</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Who can participate?</summary>
+          <p>Students and early-career professionals are welcome. Each team must include at least one member affiliated with an Indian university or research institution.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is there a team size limit?</summary>
+          <p>There is no restriction on team size. However, each participant may only join one team.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What models and data can we use?</summary>
+          <p>We follow an open model and open data policy. Teams may use any publicly available, closed-source, or proprietary models, along with additional data or augmentation strategies.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How will submissions be evaluated?</summary>
+          <p>Evaluation criteria will be announced alongside the task description. Stay tuned!</p>
+        </details>
+        <details class="faq-item">
+          <summary>Will top teams get travel support?</summary>
+          <p>Top-performing teams will be invited to present at IndoML 2026. Details regarding travel support will be communicated later.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-envelope"></i> Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fas fa-envelope-open-text"></i>
+          <h4>Email</h4>
+          <a href="mailto:datathon@indoml.in">datathon@indoml.in</a>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-globe"></i>
+          <h4>IndoML</h4>
+          <a href="https://indoml.in" target="_blank">indoml.in</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Previous Editions -->
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title"><i class="fas fa-history"></i> Previous Editions</h2>
+      <div class="card" style="text-align: center;">
+        <p>Check out last year's edition: 
+          <a href="https://datathon-indoml.github.io/" target="_blank" style="font-weight: 600;">
+            Datathon@IndoML 2025 — Evaluating LLM-Powered AI Tutors
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logos">
+        <img src="indoml.png" alt="IndoML" />
+        <img src="datathone_logo.svg" alt="Datathon" />
+      </div>
+      <p>&copy; 2026 Datathon@IndoML. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Hamburger toggle
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.getElementById('main-nav');
+    hamburger.addEventListener('click', () => {
+      const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', !expanded);
+      hamburger.classList.toggle('active');
+      nav.classList.toggle('show');
+    });
+
+    // Active nav on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a');
+    window.addEventListener('scroll', () => {
+      let scrollPos = window.scrollY + 220;
+      sections.forEach(section => {
+        if (scrollPos >= section.offsetTop && scrollPos < section.offsetTop + section.offsetHeight) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + section.id) link.classList.add('active');
+          });
+        }
+      });
+    });
+
+    // Close nav on link click (mobile)
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('show');
+        hamburger.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Animate elements on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.card, .person-card, .announcement-card, .timeline-item, .contact-card, .faq-item').forEach(el => {
+      el.classList.add('animate-in');
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
